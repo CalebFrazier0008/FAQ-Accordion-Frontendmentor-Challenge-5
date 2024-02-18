@@ -1,0 +1,188 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+}
+.Background {
+  position: absolute;
+  top: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Container {
+  display: flex;
+  width: 100vw;
+  height: 1000px;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(275, 100%, 97%);
+}
+.Card {
+  display: flex;
+  flex-direction: column;
+  width: 330px;
+  min-height: auto;
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+}
+/* HEADER CSS 
+|||||||||||||||||||||||||||||*/
+.Header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.Header > svg {
+  width: 25px;
+  margin-left: 15px;
+}
+.Header > h1 {
+  margin-left: 20px;
+  font-weight: 700;
+  color: hsl(292, 42%, 14%);
+}
+/* QUESTIONS CSS 
+|||||||||||||||||||||||||||||*/
+.Question:hover {
+  cursor: pointer;
+  color: hsl(292, 16%, 49%);
+}
+.Question {
+  padding: 30px;
+}
+/* ANSWERS CSS 
+|||||||||||||||||||||||||||||*/
+.Hidden {
+  display: none;
+}
+.Line {
+  margin: 0px;
+  padding: 0px;
+  height: 1px;
+  width: 90%;
+  align-self: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 10%);
+}
+.QuestionCon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  display: flex;
+  font-size: 15px;
+  color: hsl(292, 42%, 14%);
+}
+.Question-1 {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+}
+.Question-2 {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+}
+.Question-3 {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+}
+.Question-4 {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+}
+.Question-Header {
+}
+.QuestionCon > p {
+  color: hsl(292, 16%, 49%);
+  padding-left: 25px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  font-size: 12px;
+}
+.svg-1 {
+  position: relative;
+  width: 100px;
+  left: 10px;
+}
+.svg-2 {
+  position: relative;
+  width: 100px;
+  left: 35px;
+}
+.svg-3 {
+  position: relative;
+  width: 100px;
+  left: 10px;
+}
+.svg-4 {
+  position: relative;
+  width: 100px;
+  left: 5px;
+}
+.Question-Header-2 .Question-Header {
+  padding: 0px;
+  margin: 0px;
+}
+.Question-2 {
+}
+@media (min-width: 1440px) {
+  .Background {
+    position: absolute;
+    top: 0px;
+    height: 40vh;
+    width: 100%;
+  }
+  .Card {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    min-height: auto;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+  }
+  .Question-1 {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+  }
+  .Question-2 {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+  }
+  .Question-3 {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+  }
+  .Question-4 {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+  }
+  .svg-3 {
+    position: relative;
+    width: 100px;
+  }
+  .svg-2 {
+    position: relative;
+    width: 100px;
+    left: 170px;
+  }
+}
